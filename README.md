@@ -14,8 +14,8 @@ We implemented all codes the using C++, and compiled by GCC 9.3.0.
 1. **MLCS_baseline.cpp** : The basic method to handle SynCS.
 2. **MLCS_prune.cpp** : The Progressive Search Algorithm (PSA) for SynCS.
 3. **MLCS_decomposition.cpp** : SynCore Decomposition Algorithm, and Construction Algorithm of Dominant Layers-based Trie (DLT).
-4. **MLCS_index** : DLT-based Search Algorithm (DSA).
-5. **MLCS_maintenance** : Index maintenance algorithm of DLT.
+4. **MLCS_index.cpp** : DLT-based Search Algorithm (DSA).
+5. **MLCS_maintenance.cpp** : Index maintenance algorithm of DLT.
 
 ## Usage
 1. **Compile the project with CMakeLists.txt.**
